@@ -38,7 +38,13 @@ def end_game(decision):
     print(decision)
     exit(0) 
 
-def play_game(country_and_capital):
+functionalities = {
+    "extract_and_compile": extract_and_compile,
+    "end_game": end_game
+}
+
+def play_game(functionalities, filename):
+    country_and_capital = functionalities['extract_and_compile'](filename)
     countries = list(country_and_capital.keys())
     
     for i in range(len(country_and_capital)):
@@ -47,7 +53,7 @@ def play_game(country_and_capital):
         ans = input('> ')
         
         if country_and_capital[country].lower() != ans.lower():
-            end_game("""
+            functionalities['end_game']("""
                      Your answer is wrong.
                      The capital of %s is %s.
                      """ % (country, country_and_capital[country]))
@@ -55,7 +61,7 @@ def play_game(country_and_capital):
     print("Congratulations! You have memorised all the capital of each country.")
             
         
-def start_game(filename):
+def start_game(functionalities, filename="country_list.csv"):
     """ _summary_
 
         _args_:
@@ -71,5 +77,8 @@ def start_game(filename):
           wrong, the game will end automatically. Good luck!\n
           """)
     
-    country_and_capital = extract_and_compile(filename)
-    play_game(country_and_capital)
+    country_and_capital = functionalities['extract_and_compile'](filename)
+    play_game(functionalities, filename)
+
+## START GAME
+start_game(functionalities)
