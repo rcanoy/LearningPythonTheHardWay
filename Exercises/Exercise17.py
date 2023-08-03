@@ -48,11 +48,13 @@ print("The length of the inputted data is %r." % (indata_len))
 if exists(to_file):
     output = open(to_file, 'w')
     output = output.write(indata)
+    #output.close()
 else:
     os.mknod(to_file)
     output = open(to_file, 'w')
     output = output.write(indata)
+    #output.close()
 
 input.close()
-output.close()
+
 
