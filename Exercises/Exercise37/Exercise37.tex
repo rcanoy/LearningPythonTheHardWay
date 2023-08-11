@@ -111,9 +111,24 @@ print(count)
 \item{try: Used in try...except blocks. Defines a block of code test if it contains any errors.}
 \item{except: A keyword used in the try...except blocks. It defines a block of code to run if the try block raises an error.}
 \item{finally: Used in try...except...else blocks if the block is final. This block will be executed no matter if the try block raises an error or not.}
-\item{exec}
-\item{in}
+\item{exec: Used for the dynamic execution of Python programs which can either be a string or object code.}
+\begin{tcolorbox}
+\begin{lstlisting}
+exec(object[, globals[, locals]])
+>>> exec("print('Add: %d' % (5+1))")
+>>> exec("print(dir())", {})
+>>> exec("print(dir())", {'dir':dir, 'fact':factorial})
+\end{lstlisting}
+\end{tcolorbox}
 \item{raise: Used to raise an exception.}
+\begin{tcolorbox}
+\begin{lstlisting}
+x = "Hello"
+
+if not type is int:
+	raise TypeError("Only integers are allowed.")
+\end{lstlisting}
+\end{tcolorbox}
 \item{continue}
 \item{is}
 \item{lambda}

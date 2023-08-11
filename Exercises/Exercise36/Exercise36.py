@@ -59,8 +59,7 @@ def play_game(functionalities, filename):
                      """ % (country, country_and_capital[country]))
     
     print("Congratulations! You have memorised all the capital of each country.")
-            
-        
+    
 def start_game(functionalities, filename="country_list.csv"):
     """ _summary_
 

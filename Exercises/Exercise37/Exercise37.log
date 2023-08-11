@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.11)  3 AUG 2023 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.11)  4 AUG 2023 23:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -477,24 +477,42 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 13.
  [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-(./Exercise37.aux) ) 
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
+18.
+
+(c:/texlive/2022/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 118.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+19.
+
+(c:/texlive/2022/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+ [3] (./Exercise37.aux) ) 
 Here is how much of TeX's memory you used:
- 14972 strings out of 475075
- 293834 string characters out of 5783001
+ 15016 strings out of 475075
+ 294588 string characters out of 5783001
  658817 words of memory out of 5000000
- 36165 multiletter control sequences out of 15000+600000
- 472332 words of font info for 38 fonts, out of 8000000 for 9000
+ 36203 multiletter control sequences out of 15000+600000
+ 472947 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,104p,444b,1211s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-sup
-er-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texl
-ive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Exercise37.pdf (3 pages, 44888 bytes).
+ 99i,6n,104p,444b,1468s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/c
+m-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texm
+f-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Exercise37.pdf (3 pages, 62149 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
